@@ -1,13 +1,12 @@
+import React from 'react'
+import WishlistContainer from './WishlistContainer'
 
-
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        
-      </header>
+    <div>
+      <WishlistContainer />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
