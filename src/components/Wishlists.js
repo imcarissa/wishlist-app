@@ -1,11 +1,11 @@
 import React from 'react';
 import { connect } from 'react-redux'
 
-const Wishlists = ({ wishlist }) => {
+const Wishlists = ({ wishlists }) => {
     return (
         <div>
             Your Wishlists:
-            {wishlist.map(wishlist => 
+            {wishlists.map(wishlist => 
                     <ul>
                         <li key={wishlist.id}>{wishlist.name}<br/>
                          "{wishlist.description}"

@@ -1,7 +1,15 @@
+import Button from './Button'
+
 const Header = () => {
+    const onClick = () => {
+        console.log('Click')
+    }
     return (
         <header className='header'>
             <h1>Wishlist App</h1>
+            <Button color='green'
+                    text='Add'
+                    onClick={onClick} />
         </header>
     )
 }

@@ -32,7 +32,7 @@ class WishlistForm extends React.Component {
                 <label>Description:</label><br/>
                 <input type='text' value={this.state.description} onChange={this.handleChange} name='description' placeholder='list description' />
                 <br /><br />
-                <input type='submit' value="Create List" />
+                <input type='submit' value="Create List" className='btn btn-block' />
             </form>
         );
     }
