@@ -9,16 +9,18 @@ class WishlistForm extends React.Component {
         descripton: ''
     }
 
-    handleChange = e => {
-        const { name, value } = e.target
-
+    handleChange = (event) => {
         this.setState({
-            [name]: value
+            [event.target.name]: event.target.value
         })
     }
 
-    handleSubmit = e => {
-        e.preventDefault()
+    handleSubmit = (event) => {
+        event.preventDefault()
+        this.setState({
+            name: '',
+            description: ''
+        })
         this.props.addList(this.state)
     }
 

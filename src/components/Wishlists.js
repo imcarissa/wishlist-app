@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 const Wishlists = ({ wishlist }) => {
     return (
         <div>
-            Your Wishlists:
+            <h3>Current Wishlists:</h3>
             {wishlist.map(wishlist => 
                     <ul key={wishlist.id}>
                         <li>{wishlist.name}<br/>
