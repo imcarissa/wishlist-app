@@ -25,11 +25,11 @@ class WishlistForm extends React.Component {
     render() {
         return (
             <form onSubmit={this.handleSubmit}>
-                <h1>Create A Wishlist</h1>
-                <label>Name:</label>
+                <h3>Create A Wishlist</h3>
+                <label>Name:</label><br/>
                 <input type='text' value={this.state.name} onChange={this.handleChange} name='name' placeholder='list name' />
-                <br /><br />
-                <label>Description:</label>
+                <br />
+                <label>Description:</label><br/>
                 <input type='text' value={this.state.description} onChange={this.handleChange} name='description' placeholder='list description' />
                 <br /><br />
                 <input type='submit' value="Create List" />

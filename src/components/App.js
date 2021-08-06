@@ -1,12 +1,15 @@
-import React from 'react'
+import Header from './Header'
+import Footer from './Footer'
 import Router from './Router'
 import WishlistContainer from './WishlistContainer'
 
 const App = () => {
   return (
-    <div>
+    <div className="container">
+      <Header />
       <WishlistContainer />
       <Router />
+      <Footer />
     </div>
   )
 }
