@@ -17,7 +17,7 @@ class WishlistForm extends React.Component {
 
     render() {
         return (
-            <form>
+            <form onSubmit={this.handleSubmit}>
                 <h1>Create A Wishlist</h1>
                 <label>Name:</label>
                 <input type='text' value={this.state.name} onChange={this.handleChange} name='name' placeholder='list name' />
