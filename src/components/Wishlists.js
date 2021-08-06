@@ -6,9 +6,9 @@ const Wishlists = ({ wishlist }) => {
         <div>
             Your Wishlists:
             {wishlist.map(wishlist => 
-                    <ul>
-                        <li key={wishlist.id}>{wishlist.name}<br/>
-                         "{wishlist.description}"
+                    <ul key={wishlist.id}>
+                        <li>{wishlist.name}<br/>
+                         "{wishlist.description}"<br/>
                          </li>
                     </ul>
                 )}

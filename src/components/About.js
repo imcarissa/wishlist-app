@@ -9,8 +9,8 @@ const About = () => {
           <strong>Final Project - React</strong><br/>
           by<br/>
           <a href="http://github.com/imcarissa/wishlist-app">Carissa Sarreal</a>
-      </p></small>
       <br/>
+      </p></small>
       <Link to='/'>Go Back</Link>
     </div>
   )
