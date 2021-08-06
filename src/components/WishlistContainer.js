@@ -2,7 +2,6 @@ import React from 'react'
 import { connect } from 'react-redux'
 import { fetchLists } from '../actions/wishlistActions'
 import WishlistForm from '../components/WishlistForm'
-import Wishlists from '../components/Wishlists'
 
 class WishlistContainer extends React.Component {
 
@@ -13,7 +12,6 @@ class WishlistContainer extends React.Component {
         return (
             <div>
                 <WishlistForm />
-                <Wishlists />
             </div>
         )
     }
