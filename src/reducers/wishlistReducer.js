@@ -1,6 +1,6 @@
 export const wishlistReducer = (state = [], action) => {
     switch(action.type) {
-        case 'FETCH_LIST':
+        case 'FETCH_LISTS':
             return action.payload
         default:
             return state
