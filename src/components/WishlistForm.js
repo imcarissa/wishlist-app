@@ -1,4 +1,6 @@
 import React from 'react';
+import { connect } from 'react-redux'
+import { addList } from '../actions/wishlistActions'
 
 class WishlistForm extends React.Component {
 
@@ -13,6 +15,11 @@ class WishlistForm extends React.Component {
         this.setState({
             [name]: value
         })
+    }
+
+    handleSubmit = e => {
+        e.preventDefault()
+        this.props.addList(this.state)
     }
 
     render() {
@@ -31,4 +38,4 @@ class WishlistForm extends React.Component {
     }
 }
 
-export default WishlistForm;
+export default connect(null, { addList })(WishlistForm);
