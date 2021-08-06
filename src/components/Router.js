@@ -1,16 +1,20 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
-import Home from '../components/Home'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
-import About from '../components/About'
-import WishlistContainer from '.WishlistContainer'
+import Home from './Home'
+import Header from './Header'
+import Footer from './Footer'
+import About from './About'
+import WishlistContainer from './WishlistContainer'
 
 const Router = () => {
     return (
-        <div>
-            
-        </div>
+        <Switch>
+            <Route exact path='/' component={Home}/>
+            <Route exact path='/about' component={About}/>
+            <Route exact path='/header' component={Header}/>
+            <Route exact path='/footer' component={Footer}/>
+            <Route exact path='/Wishlists' component={WishlistContainer}/>
+        </Switch>
     )
 }
 

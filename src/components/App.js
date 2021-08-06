@@ -1,10 +1,10 @@
 import React from 'react'
-import WishlistContainer from './WishlistContainer'
+import Router from './Router'
 
 const App = () => {
   return (
     <div>
-      <WishlistContainer />
+      <Router />
     </div>
   )
 }
