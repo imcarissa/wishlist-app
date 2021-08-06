@@ -4,7 +4,7 @@ export const fetchLists = () => {
     return (dispatch) => {
         fetch(endpoint)
         .then(response => response.json())
-        .then(lists => dispatch({ type: 'FETCH_LISTS', payload: lists }))
+        .then(wishlists => dispatch({ type: 'FETCH_LISTS', payload: wishlists }))
     }
 }
 
@@ -16,6 +16,6 @@ export const addList = list => {
             headers: { 'Content-Type': 'application/json'}
         })
         .then(response => response.json())
-        .then(list => dispatch({ type: 'ADD_LIST', payload: list }))
+        .then(wishlist => dispatch({ type: 'ADD_LIST', payload: wishlist }))
     }
 }
