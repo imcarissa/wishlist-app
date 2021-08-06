@@ -7,6 +7,14 @@ class WishlistForm extends React.Component {
         descripton: ''
     }
 
+    handleChange = e => {
+        const { name, value } = e.target
+
+        this.setState({
+            [name]: value
+        })
+    }
+
     render() {
         return (
             <form>
