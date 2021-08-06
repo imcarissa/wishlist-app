@@ -9,6 +9,7 @@ const App = () => {
     <div className="container">
       <Header />
       <WishlistContainer />
+      <Wishlists />
       <Router />
       <Footer />
     </div>
