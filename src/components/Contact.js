@@ -10,7 +10,7 @@ const Contact = () => {
             <a href="github.com/imcarissa">Github</a>
             <br/><br/>
         </p>
-            <Link to='/'>Go Back</Link>
+            <Link to='/'>Hide</Link>
         </div>
     )
 }
