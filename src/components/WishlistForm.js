@@ -17,10 +17,7 @@ class WishlistForm extends React.Component {
 
     handleSubmit = (event) => {
         event.preventDefault()
-        this.setState({
-            name: '',
-            description: ''
-        })
+        this.setState({ name: '', description: '' })
         this.props.addList(this.state)
     }
 
