@@ -4,6 +4,8 @@ export const wishlistReducer = (state = [], action) => {
             return action.payload
         case 'ADD_LIST':
             return [...state, action.payload]
+        case 'DELETE_LIST':
+            return state.filter(wish => wish.id !== action.payload.id)
         default:
             return state
     }
