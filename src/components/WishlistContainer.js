@@ -5,11 +5,13 @@ import WishlistForm from '../components/WishlistForm'
 import Wishlists from '../components/Wishlists'
 
 class WishlistContainer extends React.Component {
-
+    
     componentDidMount() {
         this.props.fetchLists()
     }
+    
     render() {
+        
         return (
             <div>
                 <WishlistForm />

@@ -2,6 +2,7 @@ const endpoint = 'http://localhost:3000/api/v1/wishlists'
 
 
 export const fetchLists = () => {
+
     return (dispatch) => {
         fetch(endpoint)
         .then(response => response.json())

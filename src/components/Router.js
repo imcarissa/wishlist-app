@@ -1,15 +1,15 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 import About from '../components/About'
-import Home from '../components/Home';
+import Credits from '../components/Credits';
 import Contact from '../components/Contact'
 
 const Router = () => {
     return (
         <Switch>
-            <Route exact path='/' component={Home} />
-            <Route exact path='/contact' component={Contact}/>
-            <Route path='/about' component={About} />
+            <Route exact path='/credits' component={Credits} />
+            <Route  path='/about' component={About} />
+            <Route  path='/contact' component={Contact}/>
         </Switch>
     )
 }

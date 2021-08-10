@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Home = () => {
+const Credits = () => {
     return (
         <div>
-            
+            Credits
         </div>
     )
 }
 
-export default Home
+export default Credits
