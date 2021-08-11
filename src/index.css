@@ -16,9 +16,9 @@ body {
 
   .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
+    width: 100%;
   }
 
   .btn {
@@ -40,17 +40,10 @@ body {
     width: 100%;
   }
 
-  .wishlist {
-    background: #440404;
+  .wishlists {
+    background: #f5eaf1;
     margin: 5px;
     padding: 10px 20px;
-    cursor: pointer;
-  }
-
-  .wishlist h3 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
   }
 
   footer {

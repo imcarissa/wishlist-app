@@ -2,9 +2,9 @@
 const Header = () => {
 
     return (
-        <header className='header'>
+        <div className='header'>
             <h1>Wishlist App</h1>
-        </header>
+        </div>
     )
 }
 

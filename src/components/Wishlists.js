@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 const Wishlists = ({ wishlist }) => {
     
     return (
-        <div>
+        <div className="wishlists">           
             <h3>Current Wishlists:</h3>
             {wishlist.map(wishlist => 
                     <ul key={wishlist.id}>
