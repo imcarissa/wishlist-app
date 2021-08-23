@@ -3,7 +3,7 @@ const Header = () => {
 
     return (
         <div className='header'>
-            <h1>Wishlist App</h1>
+            <h1>Wishlist Tracker</h1>
         </div>
     )
 }
