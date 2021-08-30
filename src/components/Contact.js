@@ -5,12 +5,12 @@ const Contact = () => {
         <div>
         <p align="center">
         <br/>
-            Contact Us:<br/>
-            <a href="twitter.com/imcarissa">Twitter</a><br/>
-            <a href="github.com/imcarissa">Github</a>
-            <br/><br/>
+            Contact:<br/><br/>
+            <a href="http://twitter.com/imcarissa">Twitter</a><br/>
+            <a href="http://github.com/imcarissa">Github</a>
+            <br/>
         </p>
-            <Link to='/'>Hide</Link>
+            <Link to='/'>hide</Link>
         </div>
     )
 }

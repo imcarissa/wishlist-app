@@ -11,7 +11,7 @@ const About = () => {
           <a href="http://github.com/imcarissa/wishlist-app">Carissa Sarreal</a>
       <br/>
       </p></small>
-      <Link to='/'>Hide</Link>
+      <Link to='/'>hide</Link>
     </div>
   )
 }
