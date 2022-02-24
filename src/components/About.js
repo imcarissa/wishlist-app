@@ -6,7 +6,7 @@ const About = () => {
       <h4>Version 2.0.0</h4>
       <small><p align="center">
           Flatiron School Software Engineering<br/><br/>
-          <strong>Final Project - React</strong><br/>
+          <b>Final Project - React</b><br/>
           by<br/>
           <a href="http://github.com/imcarissa/wishlist-app">Carissa Sarreal</a>
       <br/>
