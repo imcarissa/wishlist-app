@@ -3,8 +3,6 @@ import { connect } from 'react-redux'
 
 const Wishlists = ({ wishlist, filterText }) => {
     
-    const searchedList = wishlist.filter( w => w.name.slice(0, filterText.length) === filterText)
-    const lists = searchedList.length === 0 ? wishlist : searchedList
 
     return (
         <div className="index">         
