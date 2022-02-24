@@ -28,5 +28,3 @@ class SearchBar extends React.Component {
 }
 
 export default SearchBar;
-
-// receives all user input, blue

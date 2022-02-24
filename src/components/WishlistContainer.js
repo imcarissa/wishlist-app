@@ -7,10 +7,6 @@ import SearchBar from '../components/SearchBar'
 
 class WishlistContainer extends React.Component {
 
-    state = { 
-        filterText: ''
-    }
-
     handleFilter = (filterText) => {
         this.setState({
             filterText: filterText
